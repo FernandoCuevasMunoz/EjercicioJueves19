@@ -1,0 +1,54 @@
+### 4¿Qué es un commit y por qué es importante?
+
+¿Qué es un commit?
+Un commit es un registro de cambios en el código dentro de un repositorio.
+Es como una “foto” del proyecto en un momento específico, donde se guarda qué se modificó.
+
+### ¿Qué ventaja tiene hacer varios commits pequeños
+
+Hacer commits pequeños permite:
+
+- Tener cambios más organizados y fáciles de entender
+- Detectar errores más rápido
+- Volver atrás fácilmente si algo falla
+- Trabajar mejor en equipo sin mezclar muchos cambios
+
+### ¿Cómo ayudan los commits a entender la historia del trabajo?
+Los commits permiten:
+
+- Ver qué cambios se hicieron
+- Saber quién los hizo y cuándo
+- Entender la evolución del proyecto paso a paso
+- Revisar decisiones anteriores o recuperar versiones antiguas
+
+
+### 5. ¿Qué es push y qué relación tiene con GitHub?
+
+### Qué diferencia hay entre local y remoto?
+- Local: es el repositorio que tienes en tu computador. Ahí haces cambios, pruebas y commits.
+- Remoto: es el repositorio en internet (como GitHub), donde se guarda el proyecto para compartirlo con otros
+
+### ¿Qué hace git push?
+El comando git push sirve para enviar los commits que hiciste en tu repositorio local hacia el repositorio remoto.
+
+### ¿Por qué un commit local no siempre aparece aún en GitHub?
+Porque hacer un commit solo guarda los cambios en tu computador (local). Para que aparezca en GitHub, debes hacer un git push y subir esos cambios al repositorio remoto.
+
+### 6.¿Cuál es la diferencia entre ambos?
+Branch es una rama para trabajar dentro del mismo repositorio sin afectar main y el Fork es una copia del repositorio, es decir, es un proyecto separado que se usa cuando el repo no es tuyo.
+
+### 1.¿Qué es un merge?
+Un merge es el proceso de unir cambios de distintas ramas en un repositorio en una sola. Por ejemplo: cuando trabajas en una rama y luego quieres integrar esos cambios a main.
+
+### 2.¿Qué es un conflicto?
+Un conflicto de merge ocurre cuando Git no puede decidir automáticamente qué cambios dejar, porque dos personas modificaron la misma parte del código de forma diferente.
+
+### 3.¿Cómo puede evitarse o reducirse?
+Se puede evitar o reducir así:
+
+- Trabajar en archivos o partes distintas del código
+- Hacer commits frecuentes
+- Hacer pull/actualizar antes de trabajar
+- Comunicarse con el equipo (evitar editar lo mismo al mismo tiempo)
+- Usar buenas prácticas como ramas bien organizadas (feature/, fix/, etc.)
+
