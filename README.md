@@ -44,3 +44,31 @@ Un fork es una copia completa de un repositorio, pero en mi propia cuenta de GiH
 
 ### 6.¿Cuál es la diferencia entre ambos?
 Branch es una rama para trabajar dentro del mismo repositorio sin afectar main y el Fork es una copia del repositorio, es decir, es un proyecto separado que se usa cuando el repo no es tuyo.
+## 🌿 ¿Qué es `main` y por qué se protege?
+
+### 7. ¿Qué representa `main` en un proyecto?
+
+La rama `main` es la rama principal de un repositorio. Representa la versión oficial del proyecto, es decir, el código más completo, funcional y listo para ser utilizado o entregado.
+
+---
+
+### 8. ¿Por qué no debería usarse para cambios directos?
+
+No se recomienda trabajar directamente en `main` porque:
+- Puede introducir errores o bugs en el proyecto
+- No hay revisión previa de los cambios
+- Puede afectar a otras personas que usan el código
+
+Lo correcto es crear una nueva rama, realizar los cambios ahí y luego integrarlos mediante una revisión.
+
+---
+
+### 9. ¿Por qué es importante mantenerla estable?
+
+Es importante mantener `main` estable porque:
+- Es la versión que otros utilizarán
+- Sirve como base confiable del proyecto
+- Permite un trabajo en equipo más organizado
+- Evita errores en producción
+
+Si `main` no es estable, todo el proyecto puede verse afectado.
